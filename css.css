@@ -1,0 +1,100 @@
+body{ 
+	background:white;
+	color:rgba(0,0,0,.54);
+	width:100%;
+	margin:0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+	margin:0px auto;
+	width: 52%;
+	padding:5em;
+}
+
+#header {
+	width:100%;
+	height:2em;
+	position:fixed;
+	background:blue;
+	color:white;
+	padding:1.5%;
+	background-image:url("https://s18.postimg.org/lo1fz6ie1/blue.png");
+	font-family: 'Days One', sans-serif;
+	z-index:100;
+	box-shadow: -10px 1px 15px rgba(0,0,0,.4);
+}
+
+#leftimg {
+	width:10%;
+	float:left;
+	bottom:0;
+	position:fixed;
+}
+
+#rightimg {
+	float:right;
+	bottom:0;
+	right:0;
+	position:fixed;
+	z-index:0;
+}
+#content {
+	margin-top:8%;
+	font-size:1.2em;
+}
+
+div.cap {
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+	margin-top:-2em;
+	z-index:1;
+}
+#footer {
+	width:100%;
+	background:url("https://s11.postimg.org/oguu4uosj/dark.png");
+	z-index:10;
+	float:left;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+	color:rgba(255,255,255,.4);
+	margin-top:-4px;
+	position:relative;
+}
+
+#header a {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:1em;
+	font-size:2.3em;
+	text-decoration:none;
+	color:rgb(0,202,80);
+}
+
+#header a:hover {
+	color:rgb(194,255,212);
+	text-shadow: 0px 0px 7px rgb(194,255,212);
+}
+figure {
+	width:100%;
+	margin:0;
+	position: relative;
+	  
+}
+figcaption {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  color: rgba(255,255,255,.6);
+  background: rgba(0, 0, 0, .6);
+  } /* ^^^ i stole this off stackoverflow so dont ask how it works;; */
+  
+  h1 {
+  	color:rgb(0,202,80);
+  	text-decoration:none;
+  	font-weight:normal;
+  
+  }
